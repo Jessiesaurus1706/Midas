@@ -1,12 +1,15 @@
 import styles from './Header.module.scss';
-import Logo from '../../../../assets/images/header-logo.svg';
 
-const Header = () => {
+interface HeaderProps {
+  logo: string;
+}
+
+const Header = ({ logo }: HeaderProps) => {
   return (
     <header className={styles.header}>
       <img
-        src={Logo}
-        alt="Crédito Fácil"
+        src={logo}
+        alt="Logo"
         className={styles.logo}
       />
     </header>

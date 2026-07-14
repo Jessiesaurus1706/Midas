@@ -3,7 +3,6 @@ import type { ReactNode } from 'react';
 import Header from '../../components/ui/Header/Header';
 import Footer from '../../components/ui/Footer/Footer';
 import LogoHeader from '../../../assets/images/CFElogo.png';
-import LogoFooter from '../../../assets/images/DAVIbanklogo.png';
 
 import styles from './AuthLayout.module.scss';
 
@@ -20,7 +19,7 @@ const AuthLayout = ({ children }: Props) => {
         {children}
       </main>
 
-      <Footer logo={LogoFooter} />
+      <Footer />
     </div>
   );
 };
