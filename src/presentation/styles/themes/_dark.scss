@@ -1,0 +1,33 @@
+[data-theme='dark'] {
+
+  --color-background: #121212;
+
+  --color-surface: #1E1E1E;
+
+  --color-surface-secondary: #2B2B2B;
+
+  --color-text-primary: #FFFFFF;
+
+  --color-text-secondary: #C4C4C4;
+
+  --color-border: #3C3C3C;
+
+  --color-primary: #4F7BFF;
+
+  --color-primary-hover: #2F3C5F;
+
+  --color-on-primary: #FFFFFF;
+
+  --gradient-primary: linear-gradient(
+    90deg,
+    #4F7BFF,
+    #6C93FF
+  );
+
+  --color-success: #22C55E;
+
+  --color-warning: #FBBF24;
+
+  --color-danger: #F87171;
+
+}
